@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W7B5FGN');</script>
+<!-- End Google Tag Manager -->
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Landing Page - Start Bootstrap Theme</title>
+
+  <meta class="mktoString" id="HeroBackgroundImage" default="http://na-sj21.marketo.com/rs/542-APD-312/images/HERO-PLACEHOLDER.jpg" mktoName="Hero Background Image">
+  <meta class="mktoString" id="FormTopPadding" default="-1" mktoName="Form Top Padding">
+
+  <meta class="mktoColor" id="HeroGradient1" mktoName="Hero Gradient 1" default="#C0C0C0">
+  <meta class="mktoColor" id="HeroGradient2" mktoName="Hero Gradient 2" default="#ffffff">
+  <meta class="mktoColor" id="HeroButton1" mktoName="Hero Button 1" default="#0186A7">
+  <meta class="mktoColor" id="HeroButton2" mktoName="Hero Button 2" default="#244263">
+  <meta class="mktoColor" id="formButtonColor" mktoName="Form Button" default="#3c82c8">
+  <meta class="mktoColor" id="section1BackgroundColor" mktoName="Section 1 BG" default="#ffffff">
+  <meta class="mktoColor" id="section1FWBackgroundColor" mktoName="Section 1 Full-Width BG" default="#ffffff">
+  <meta class="mktoColor" id="section2BackgroundColor" mktoName="Section 2 BG" default="#f8f9fa">
+  <meta class="mktoColor" id="section2ButtonColor" mktoName="Section 2 Button" default="#244263">
+  <meta class="mktoColor" id="section2VideoBackgroundColor" mktoName="Section 2 Vid BG" default="#f8f9fa">
+  <meta class="mktoColor" id="section2VideoButtonColor" mktoName="Section 2 Vid Button" default="#244263">
+  <meta class="mktoColor" id="section3BackgroundColor" mktoName="Section 3 BG" default="#f8f9fa">
+  <meta class="mktoColor" id="section3ButtonColor" mktoName="Section 3 Button" default="#244263">
+  <meta class="mktoColor" id="section4BackgroundColor" mktoName="Section 4 BG" default="#f8f9fa">
+  <meta class="mktoColor" id="section4ButtonColor" mktoName="Section 4 Button" default="#244263">
+  <meta class="mktoColor" id="section5BackgroundColor" mktoName="Section 5 BG" default="#ffffff">
+  <meta class="mktoColor" id="section5ButtonColor" mktoName="Section 5 Button" default="#244263">
+  <meta class="mktoColor" id="footerBackgroundColor" mktoName="Footer BG" default="#d3d3d3">
+
+  <meta class="mktoString" id="videoEmbedCode" mktoName="Video Embed Code" default="DdEJ7L4Ki-o">
+
+  <meta class="mktoString" id="facebookLink" mktoName="Facebook Link" default="#">
+  <meta class="mktoString" id="twitterLink" mktoName="Twitter Link" default="#">
+  <meta class="mktoString" id="linkedinLink" mktoName="LinkedIn Link" default="#">
+
+  <meta class="mktoBoolean" id="showNavbar" mktoName="Show Navbar?" default="true" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+
+  <meta class="mktoBoolean" id="showHeroSection" mktoName="Show Hero Section?" default="true" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+  <meta class="mktoBoolean" id="showHeroButtons" mktoName="Show Hero Buttons?" default="false" false_value="none !important" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+
+  <meta class="mktoBoolean" id="showSection1" mktoName="Show Section 1?" default="true" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+  <meta class="mktoBoolean" id="showSection1Form" mktoName="Show Section 1 Form?" default="true" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+
+  <meta class="mktoBoolean" id="showSection1FW" mktoName="Show Section 1 - Full Width?" default="false" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+
+  <meta class="mktoBoolean" id="showSection2" mktoName="Show Section 2?" default="true" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+  <meta class="mktoBoolean" id="showSection2Button" mktoName="Show Section 2 Button?" default="false" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+
+  <meta class="mktoBoolean" id="showSection2Video" mktoName="Show Section 2 - Video?" default="false" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+  <meta class="mktoBoolean" id="showSection2VideoButton" mktoName="Show Section 2 Button?" default="false" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+
+  <meta class="mktoBoolean" id="showSection3" mktoName="Show Section 3?" default="true" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+  <meta class="mktoBoolean" id="showSection3Button" mktoName="Show Section 3 Button?" default="false" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+
+  <meta class="mktoBoolean" id="showSection4" mktoName="Show Section 4?" default="true" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+  <meta class="mktoBoolean" id="showSection4Button" mktoName="Show Section 4 Button?" default="false" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+
+  <meta class="mktoBoolean" id="showSection5" mktoName="Show Section 5?" default="true" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+  <meta class="mktoBoolean" id="showSection5Button" mktoName="Show Section 5 Button?" default="false" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+
+  <meta class="mktoBoolean" id="showFooter" mktoName="Show Footer?" default="true" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+  <meta class="mktoBoolean" id="showFooterSocialIcons" mktoName="Show Footer Social Icons?" default="true" false_value="none" true_value="block" false_value_name="HIDE" true_value_name="SHOW">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Font Awesome and Line Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+
+  <!-- Custom fonts: Add link for Custom Font Here! -->
+  <link href="https://fonts.google.com/specimen/Open+Sans" rel="stylesheet">
+  <link href="https://fonts.google.com/specimen/Open+Sans" rel="stylesheet">
+
+  <!-- Navbar Toggler Styling -->
+  <link href="https://info.leadous.com/rs/618-DND-060/images/navbar-toggler.css" rel="stylesheet">
+
+  <style>
+    background-color: #3c82c8;
+
+    :root {
+      --main-font-family: 'Open Sans', open sans, helvetica;
+      --secondary-font-family: 'Open Sans', open sans, helvetica;
+    }
+
+    body {
+    font-family: var(--main-font-family);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+    font-family: var(--secondary-font-family) !important;
+    font-weight: 700;
+    }
+
+    p {
+    font-family: var(--main-font-family);
+    }
+
+    a {
+      color:#0001ee
+    }
+    
+    .bg-light {
+      background-color : #3c82c8 !important;
+    }
+    
+    .bg-dark {
+      background-color : #000000 !important;
+    }
+
+    a:hover {
+      color:inherit !important;
+      text-decoration:inherit !important;
+    }
+	.px-3-mobile {
+	padding:3em !important;
+	}
+
+     /* Use this class for full-width sections for even margins */
+    @media (min-width: 992px) {
+    .mx-20px {
+      margin-left:20px !important;
+      margin-right:20px !important;
+    }
+    }
+
+    /* Navbar Styling */
+    .navbar-logo {
+      max-width:175px;
+      width:100%;
+      height:auto;
+    }
+    .nav-link {
+      padding:20px 20px !important;
+    }
+    .nav-link a {
+      color:#ffffff;
+    }
+    .nav-link a:hover {
+      text-decoration: none !important;
+      color: #b1b2b5;
+      transition: 0.3s;
+    }
+    .nav-link-border {
+      border-bottom: 1px solid #e6e6e6;
+    }
+
+    /*Navbar Mobile Styling */
+    @media screen and (min-width:576px) {
+      .navbar-logo {
+        max-width:250px !important;
+      }
+      .navbar-toggler {
+        display: none;
+      }
+      .nav-link-border {
+        border-bottom: 0px !important;
+      }
+    }
+
+    /* Hero Styling */
+    header.masthead {
+    position: relative;
+    background-color: #343a40;
+    background-image: url(${HeroBackgroundImage});
+    background-size: cover;
+    background-position: cover;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    }
+    header.masthead .overlay {
+    position: absolute;
+    background-image: linear-gradient(to right, ${HeroGradient1}, ${HeroGradient2});
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    }
+    .button a{
+    display: inline-block;
+    color: white;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    }
+    .button-1 a{
+    padding: 15px 18px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: ${HeroButton1};
+    border-radius: 8px;
+    background-color: ${HeroButton1};
+    font-family: var( --main-font-family);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.12px;
+    }
+    .button-1:hover a{
+    background-color:transparent;
+    }
+    .button-2 a{
+    margin-top:20px;
+    padding: 15px 18px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: ${HeroButton2};
+    border-radius: 8px;
+    background-color: transparent;
+    font-family: var( --main-font-family);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.12px;
+    }
+    .button-2:hover a{
+    background-color:${HeroButton2};
+    border-color: ${HeroButton2};
+    }
+
+    /* Hero Mobile Styling */
+    @media (min-width: 576px) {
+      .two-buttons {
+        display:inline-block  !important;
+      }
+      .button-2 {
+        margin-left:20px !important;
+      }
+    }
+    @media (min-width: 768px) {
+    header.masthead h1 {
+    font-size: 3rem;
+    }
+	.px-6 {
+    padding: 6rem !important;
+    }
+	.px-3-mobile {
+	padding:15px !important;
+	}
+    }
+
+
+    /* Section 1 Styling */
+
+    .form-container {
+      margin-top:50px
+    }
+    .form-wrapper {
+    background-color:#ffffff;
+    padding: 25px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(6, 37, 50, 0.5);
+    }
+
+    /* Section 1 Mobile Styling */
+    @media (min-width: 768px) {
+    .form-text-section {
+    min-height:300px
+    }
+    }
+    @media (min-width: 992px) {
+    .form-container {
+    margin-top: ${FormTopPadding}em !important;
+    z-index: 1;
+    }
+    }
+
+
+    /* Section 2,3,4 Styling */
+	.showcase .showcase-text {
+    padding: 3rem;
+    }
+	.showcase-text-section {
+	padding-top: 7rem;
+    padding-bottom: 7rem;
+	}
+    .showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+    }
+	.showcase-vid {
+	display:inherit !important;
+	}
+      /* Section 2 Styling */
+      #mkto_gen_section2Image {
+      width:100%;
+      height:100%;
+      }
+      .section-2-button a{
+      padding: 15px 18px;
+      border-style: solid;
+      border-width: 3px;
+      border-color: ${section2ButtonColor};
+      border-radius: 8px;
+      background-color: ${section2ButtonColor};
+      font-family: var( --main-font-family);
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.12px;
+      }
+      .section-2-button:hover a{
+      background-color:transparent;
+      color:${section2ButtonColor} !important;
+      }
+      /* Section 2 - Video - Styling */
+      .section-2-video-button a{
+      padding: 15px 18px;
+      border-style: solid;
+      border-width: 3px;
+      border-color: ${section2VideoButtonColor};
+      border-radius: 8px;
+      background-color: ${section2VideoButtonColor};
+      font-family: var( --main-font-family);
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.12px;
+      }
+      .section-2-video-button:hover a{
+      background-color:transparent;
+      color:${section2VideoButtonColor} !important;
+      }
+
+      /* Section 3 Styling */
+      #mkto_gen_section3Image {
+          width:100%;
+          height:100%;
+      }
+      .section-3-button a{
+      padding: 15px 18px;
+      border-style: solid;
+      border-width: 3px;
+      border-color: ${section3ButtonColor};
+      border-radius: 8px;
+      background-color: ${section3ButtonColor};
+      font-family: var( --main-font-family);
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.12px;
+      }
+      .section-3-button:hover a{
+      background-color:transparent;
+      color:${section3ButtonColor} !important;
+      }
+      /* Section 4 Styling */
+      #mkto_gen_section4Image {
+      width:100%;
+      height:100%;
+      }
+      .section-4-button a{
+      padding: 15px 18px;
+      border-style: solid;
+      border-width: 3px;
+      border-color: ${section4ButtonColor};
+      border-radius: 8px;
+      background-color: ${section4ButtonColor};
+      font-family: var( --main-font-family);
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.12px;
+      }
+      .section-4-button:hover a{
+      background-color:transparent;
+      color:${section4ButtonColor} !important;
+      }
+
+    /* Section 2,3,4 Mobile Styling */
+	@media (min-width: 768px) {
+    .showcase .showcase-text {
+    padding: 6rem;
+    }
+    }
+
+
+    /* Section 5 Styling */
+    .testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+	}
+	.testimonials .testimonial-item {
+    max-width: 18rem;
+	}
+    #mkto_gen_section5Image1, #mkto_gen_section5Image2, #mkto_gen_section5Image3 {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    }
+    .section-5-button a{
+    padding: 15px 18px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: ${section5ButtonColor};
+    border-radius: 8px;
+    background-color: ${section5ButtonColor};
+    font-family: var( --main-font-family);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.12px;
+    }
+    .section-5-button:hover a{
+    background-color:transparent;
+    color:${section5ButtonColor} !important;
+    }
+
+    /* Footer Syling */
+    .footer a, .footer p, .footer li {
+    color:#ffffff !important;
+    }
+    .footer a:hover {
+    color:#303e48 !important;
+    }
+    .social-icon-color a{
+      color:#ffffff !important;
+    }
+    .social-icon-color a:hover{
+      color:#ee283b !important;
+    }
+    footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    }
+
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7B5FGN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-dark static-top" role="navigation" style="display:${showNavbar};">
+    <div class="container px-3">
+      <div class="mktoImg" id="navbarLogo" mktoName="Navbar Logo" mktoImgLink ="https://broadcastmed.com/">
+        <a class="navbar-brand">
+          <img src="https://pages.broadcastmed.com/rs/006-XIZ-385/images/bcm-transparent-white-logo.png" alt="" class="image navbar-logo" />
+        </a>
+      </div>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-link nav-link-border">
+            <div class="mktoText" id="navbarItem1" mktoName="navbarItem1">
+               <a href="https://broadcastmed.com/">Home</a>
+            </div>
+          </li>
+          <li class="nav-link nav-link-border">
+            <div class="mktoText" id="navbarItem2" mktoName="navbarItem2">
+              <a href="https://broadcastmed.com/about-us">About</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <header class="masthead text-white" style="display:${showHeroSection};">
+    <div class="overlay"></div>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-1 mx-auto px-3-mobile">
+          <div class="mktoText" id="heroHeader" mktoName="Hero Header">
+          	<h1>Fighting the coronavirus recession and the path forward</h1>
+          </div>
+          <div class="mktoText" id="heroSubtext" mktoName="Hero Subtext">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+          <div class="two-buttons" style="display:${showHeroButtons};">
+            <div class="mktoText button-1 button" id="heroButton1" mktoName="Hero Button 1">
+              <a href="#link">Button Text</a>
+            </div>
+          </div>
+          <div class="two-buttons" style="display:${showHeroButtons};">
+            <div class="mktoText button-2 button" id="heroButton2" mktoName="Hero Button 2">
+              <a href=" ">Button Text</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 mx-auto">
+          <div class="form-container" style="display:${showSection1Form};">
+            <div class="form-wrapper">
+              <div class="mktoText text-center" id="FormHeader" mktoName="Form Header">
+                <h3>Register Today</h3>
+              </div>
+              <div class="mktoText text-center" id="FormText" mktoName="Form Text">
+                <p>Join us for an in-depth webinar on the latest best practices.</p>
+              </div>
+              <div class="mktoForm" id="FormPlaceholder" mktoName="Section 1 Form"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+   <!-- Section 5 - Testimonials -->
+  <section class="testimonials text-center" style="display:${showSection5};background-color:${section5BackgroundColor}">
+    <div class="container py-5 px-5">
+      <div class="mktoText" id="section5MainHeader" mktoName="Section 5 Main Header">
+        <h2 class="mb-5">Check out our recent blog posts</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+          	<div class="mb-3" style="height:250px;">
+              <div class="mktoImg" id="section5Image1" mktoName="Section 5 Image 1" style="width:100%; height:100%; object-fit:cover;">
+                 <img class="img-fluid" src="http://na-sj21.marketo.com/rs/542-APD-312/images/Placeholder2.jpg" alt="" style="width:100%; height:100%; object-fit:cover;">
+              </div>
+            </div>
+            <div class="mktoText" id="section5Header1" mktoName="Section 5 Header 1">
+              <h5>Title Here</h5>
+            </div>
+            <div class="mktoText" id="section5Text1" mktoName="Section 5 Text 1">
+              <p class="font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <div class="mb-3" style="height:250px;">
+              <div class="mktoImg" id="section5Image2" mktoName="Section 5 Image 2" style="width:100%; height:100%; object-fit:cover;">
+                  <img class="img-fluid" src="http://na-sj21.marketo.com/rs/542-APD-312/images/Placeholder2.jpg" alt="" style="width:100%; height:100%; object-fit:cover;">
+              </div>
+            </div>
+            <div class="mktoText" id="section5Header2" mktoName="Section 5 Header 2">
+              <h5>Title Here</h5>
+            </div>
+            <div class="mktoText" id="section5Text2" mktoName="Section 5 Text 2">
+              <p class="font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <div class="mb-3" style="height:250px;">
+              <div class="mktoImg" id="section5Image3" mktoName="Section 5 Image 3" style="width:100%; height:100%; object-fit:cover;">
+                  <img class="img-fluid" src="http://na-sj21.marketo.com/rs/542-APD-312/images/Placeholder2.jpg" alt="" style="width:100%; height:100%; object-fit:cover;">
+              </div>
+            </div>
+            <div class="mktoText" id="section5Header3" mktoName="Section 5 Header 3">
+              <h5>Title Here</h5>
+            </div>
+            <div class="mktoText" id="section5Text3" mktoName="Section 5 Text 3">
+              <p class="font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+	  <div class="row">
+	  	<div class="col-lg-12 mx-auto">
+          <div class="mktoText mt-5 section-5-button button" id="section5Button" mktoName="Section 5 Button" style="display:${showSection5Button}">
+            <a href=" ">Button Text</a>
+          </div>
+		</div>
+	  </div>
+    </div>
+  </section>
+  
+  <!-- Section 2 - Image Showcase 1 -->
+  <section class="showcase" style="display:${showSection2};background-color:${section2BackgroundColor}">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+		  <div class="col-lg-6 order-lg-2 showcase-img">
+            <div class="mktoImg" id="section2Image" mktoName="Section 2 Image" style="width: 100%;height: 100%;object-fit: cover">
+            	<img class="img-fluid" src="http://na-sj21.marketo.com/rs/542-APD-312/images/Placeholder2.jpg" alt="" style="width: 100%;height: 100%;object-fit: cover">
+            </div>
+          </div>
+		  <div class="col-lg-6 order-lg-1 my-auto  px-5 px-6 showcase-text-section" >
+            <div class="mktoText" id="section2Header" mktoName="Section 2 Header">
+              <h2>Section Title Here</h2>
+            </div>
+            <div class="mktoText" id="section2Text" mktoName="Section 2 Text">
+              <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="mktoText mt-5 section-2-button button" id="section2Button" mktoName="Section 2 Button" style="display:${showSection2Button}">
+              <a href=" ">Button Text</a>
+            </div>
+        </div>
+      </div>
+	</div>
+  </section>
+
+  <!-- Section 2 Video - Video Showcase -->
+  <section class="showcase" style="display:${showSection2Video};background-color:${section2VideoBackgroundColor}">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 showcase-vid">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/${videoEmbedCode}?rel=0" width="100%" height="300px" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+		</div>
+		  <div class="col-lg-6 order-lg-1 my-auto showcase-text-section px-5 px-6">
+            <div class="mktoText" id="section2VideoHeader" mktoName="Section 2 Header">
+              <h2>Section Title Here</h2>
+            </div>
+            <div class="mktoText" id="section2VideoText" mktoName="Section 2 Text">
+              <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="mktoText mt-5 section-2-video-button button" id="section2VideoButton" mktoName="Section 2 Button" style="display:${showSection2VideoButton}">
+              <a href=" ">Button Text</a>
+            </div>
+        </div>
+      </div>
+	</div>
+  </section>
+
+  <!-- Section 3 - Image Showcase 2 -->
+  <section class="showcase" style="display:${showSection3};background-color:${section3BackgroundColor}">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img">
+          <div class="mktoImg" id="section3Image" mktoName="Section 3 Image" style="width: 100%;height: 100%;object-fit: cover">
+            <img class="img-fluid" src="http://na-sj21.marketo.com/rs/542-APD-312/images/Placeholder2.jpg" alt="" style="width: 100%;height: 100%;object-fit: cover">
+          </div>
+        </div>
+		<div class="col-lg-6 my-auto showcase-text-section px-5 px-6">
+          <div class="mktoText" id="section3Header" mktoName="Section 3 Header">
+            <h2>Section Title Here</h2>
+          </div>
+          <div class="mktoText" id="section3Text" mktoName="Section 3 Text">
+            <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="mktoText mt-5 section-3-button button" id="section3Button" mktoName="Section 3 Button" style="display:${showSection3Button}">
+          	<a href=" ">Button Text</a>
+          </div>
+        </div>
+      </div>
+	</div>
+  </section>
+
+
+  <!-- Section 4 - Image Showcase 3 -->
+  <section class="showcase" style="display:${showSection4};background-color:${section4BackgroundColor}">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img">
+          <div class="mktoImg" id="section4Image" mktoName="Section 4 Image" style="width: 100%;height: 100%;object-fit: cover">
+            <img class="img-fluid" src="http://na-sj21.marketo.com/rs/542-APD-312/images/Placeholder2.jpg" alt="" style="width: 100%;height: 100%;object-fit: cover">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text-section  px-5 px-6 testimonials">
+          <div class="mktoText" id="section4Header" mktoName="Section 4 Header">
+            <h2>Section Title Here</h2>
+          </div>
+          <div class="mktoText" id="section4Text" mktoName="Section 4 Text">
+            <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="mktoText mt-5 section-4-button button" id="section4Button" mktoName="Section 4 Button" style="display:${showSection4Button}">
+            <a href=" ">Button Text</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+    <!-- 3 Cards Section -->
+  <section>
+    <div class="container mtb" id="section2" style="padding: 112px 0px;">
+      <div class="row centered">
+        <div class="col-md-4 mt">
+          <div class="mktoImg" id="section2Image1" mktoName="Section 2 Image 1" mktoImgClass="expandToFit" style="width:90px; display:block; margin-left:auto; margin-right:auto;"></div>
+          <div class="mktoText" id="section2Title1" mktoName="Section 2 Caption Title 1">
+            <h4 style="text-align: center">GOOD DESIGN</h4>
+          </div>
+          <div class="mktoText" id="section2CaptionText1" mktoName="Section 2 Caption Text 1" style="text-align: center">
+            <p style="text-align: center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when a printer took a galley.</p>
+          </div>
+        </div><!--/col-md-4-->
+
+        <div class="col-md-4 mt">
+          <div class="mktoImg" id="section2Image2" mktoName="Section 2 Image 2" mktoImgClass="expandToFit" style="width:90px; display:block; margin-left:auto; margin-right:auto;"></div>
+          <div class="mktoText" id="section2Title2" mktoName="Section 2 Caption Title 2">
+            <h4 style="text-align: center">WELL PROTECTED</h4>
+          </div>
+          <div class="mktoText" id="section2CaptionText2" mktoName="Section 2 Caption Text 2" style="text-align: center">
+            <p style="text-align: center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when a printer took a galley.</p>
+          </div>
+        </div><!--/col-md-4-->
+
+        <div class="col-md-4 mt">
+          <div class="mktoImg" id="section2Image3" mktoName="Section 2 Image 3" mktoImgClass="expandToFit" style="width:90px; display:block; margin-left:auto; margin-right:auto;"></div>
+          <div class="mktoText" id="section2Title3" mktoName="Section 2 Caption Title 3">
+            <h4 style="text-align: center">HIGH CLASS</h4>
+          </div>
+          <div class="mktoText" id="section2CaptionText3" mktoName="Section 2 Caption Text 3" style="text-align: center">
+            <p style="text-align: center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when a printer took a galley.</p>
+          </div>
+        </div><!--/col-md-4-->
+      </div><!--/row -->
+    </div>
+  </section>
+
+  <!-- Form section -->
+  <section class="container py-5 px-5">
+    <form mktoName="Full Width Form" id="mktoForm_1101" novalidate="novalidate" class="mktoForm mktoHasWidth mktoLayoutLeft container py-5 px-5" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: rgb(51, 51, 51); width: 1904px;"><style type="text/css">.mktoForm .mktoButtonWrap.mktoRound .mktoButton {
+      color:#fff;
+      border:1px solid #a3bee2;
+      -webkit-border-radius:5px;
+      -moz-border-radius:5px;
+      border-radius:5px;
+      background-color:#779dd5;
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#779dd5), to(#5186cb));
+      background-image: -webkit-linear-gradient(top, #779dd5, #5186cb);
+      background-image: -moz-linear-gradient(top, #779dd5, #5186cb);
+      background-image: linear-gradient(to bottom, #779dd5, #5186cb);
+      padding:0.4em 1em;
+      font-size:1em;
+    }
+      .mktoForm .mktoButtonWrap.mktoRound .mktoButton:hover {
+        border:1px solid #45638c;
+      }
+      .mktoForm .mktoButtonWrap.mktoRound .mktoButton:focus {
+        outline:none;
+        border:1px solid #45638c;
+      }
+      .mktoForm .mktoButtonWrap.mktoRound .mktoButton:active{
+        background-color:#5186cb;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#5186cb), to(#779dd5));
+        background-image: -webkit-linear-gradient(top, #5186cb, #779dd5);
+        background-image: -moz-linear-gradient(top, #5186cb, #779dd5);
+        background-image: linear-gradient(to bottom, #5186cb, #779dd5);
+      }
+      </style>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" style="display:${showFooter};background-color:${footerBackgroundColor}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-75 text-center text-lg-left my-auto ">
+          <div class="mktoImg" id="footerLogo" mktoName="Footer Logo">
+            <img class="mb-4 img-fluid" src="https://pages.broadcastmed.com/rs/006-XIZ-385/images/BroadMed_logo_white-small.png">
+          </div>
+          <div class="mktoText" id="footerCopyright" mktoName="Footer Copyright Text">
+            <p class="text-muted small mb-4 mb-lg-0">&copy; Broadcast Med 2021. All Rights Reserved.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto" style="display:${showFooterSocialIcons}">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3 social-icon-color">
+              <a href="https://www.facebook.com/BroadcastMed">
+                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3 social-icon-color">
+              <a href="https://twitter.com/BroadcastMedNet">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item social-icon-color">
+              <a href="https://www.linkedin.com/company/broadcastmed/">
+                <i class="fab fa-linkedin fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <style>
+
+    form.mktoForm {
+      width: 100% !important;
+      font-family: var(--main-font-family) !important;
+    }
+
+    .mktoForm .mktoFormCol {
+      float: none;
+      width: 100%;
+      margin-bottom: 0px !important;
+    }
+
+    .mktoForm .mktoOffset {
+      display: none;
+    }
+
+    .mktoForm .mktoFieldWrap {
+      float: none;
+    }
+
+    label {
+      width: 100% !important;
+      font-size: 1.3em !important;
+      font-family:var(--main-font-family) !important;
+      font-weight: normal;
+    }
+
+    .mktoLabel {
+    font-size: 1.3em !important;
+    font-weight:700 !important;
+}
+    label.preField {
+      font-weight:700 !important;
+    }
+
+    .mktoForm .mktoGutter {
+      height:0.5em !important
+    }
+
+
+    mktoHtmlText.mktoHasWidth, .mktoCheckboxList {
+    width: auto !important;
+}
+
+    .mktoForm input[type=text],
+    .mktoForm input[type=url],
+    .mktoForm input[type=email],
+    .mktoForm input[type=tel],
+    .mktoForm input[type=number],
+    .mktoForm input[type=date],
+    .mktoForm textarea.mktoField,
+    .mktoForm select.mktoField {
+      border: 1px solid rgba(0, 0, 0, .2);
+      width: 100% !important;
+      height: 44px;
+      border-radius: 4px;
+      margin-bottom: 18px;
+      box-shadow: none !important;
+
+    }
+
+    .mktoForm .mktoRadioList > input, .mktoForm .mktoCheckboxList > input {
+      margin-top: 0.3em !important;
+    }
+
+    .mktoForm.mktoLayoutAbove .mktoGutter {
+    display: block !important;
+}
+
+    .mktoForm.mktoLayoutLeft .mktoRadioList,
+    .mktoForm.mktoLayoutLeft .mktoCheckboxList {
+      clear: left;
+    }
+
+    span.mktoButtonWrap {
+      margin-left: 0px !important;
+    }
+
+    .mktoRadioList, .mktoCheckboxList {
+    padding-bottom: 20px !important;
+}
+
+    .mktoButtonRow {
+      margin-top:20px !important
+    }
+
+    .mktoForm button.mktoButton {
+      width: 100% !important;
+      background: ${formButtonColor} !important;
+      border: 1px solid ${formButtonColor} !important;
+      color: #fff !important;
+      border-radius: 8px !important;
+      padding: 15px 18px !important;
+	  font-size: 1.125rem !important;
+ 	  font-family: var(--main-font-family) !important;
+      box-shadow: none !important;
+    }
+
+    .mktoButtonRow {
+      width: 100%;
+    }
+
+  </style>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
